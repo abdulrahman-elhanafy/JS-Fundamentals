@@ -1,8 +1,8 @@
-const agrCount = process.argv.length - 2;
-
-if (agrCount === 0) {
+const agrCount = process.argv;
+const firstArg = process.argv[2];
+if (firstArg == undefined) {
     console.log("No argument");
 }
-else if (agrCount === 1) {
-    console.log(process.argv[2]);
+else{
+    console.log(firstArg);
 }
