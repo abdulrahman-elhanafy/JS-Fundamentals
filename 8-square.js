@@ -5,11 +5,11 @@ let num = Number(firstArg);
 
 if (!isNaN(num)) {
     for (let i = 0; i < num; i++) {
-        let row = "";
+        let row = ""; // عملنا دا عشان نعرف ان روو دا سترينج 
         for (let j = 0; j < num; j++) {
-        row += "X";
+        row += "X"; // عملنا دى عشان مش هنقدر نطبع كل عدداكس جمب بعض فى سطر واحد 
         }
-        console.log(row);
+        console.log(row); // فبنضطر نخلى مجموعة اكس مع بعض سطر واحد و نطبع السطر على بعضه
     }
 }
 else{
